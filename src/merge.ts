@@ -5,7 +5,7 @@ export function merge(
 ): number[] {
   const sorted_1 = sortings(collection_1);
   const sorted_2 = sortings(collection_2);
-  const sorted_3 = sortings(collection_3).reverse();
+  const sorted_3 = sortings(collection_3);
 
   const merged = mergeSorted(sorted_1, sorted_2, sorted_3);
 
